@@ -1,0 +1,171 @@
+
+<!doctype html>
+<!-- START OF _layouts/default.html -->
+<html lang="en">
+	<head>
+		<meta charset="utf-8">
+		<meta content="IE=edge,chrome=1" http-equiv="X-UA-Compatible" >
+		<meta content="width=device-width,initial-scale=1" name="viewport">
+		<meta content="Tom Moor is the Co-Founder of Sqwiggle - a communication tool for remote teams, from the UK and currently in San Francisco." name="description">
+		<meta content="Tom Moor" name="author">
+		
+		<title>There Are Always More Users &mdash; Tom Moor</title>
+		
+		<!-- Styles -->
+		<link href="/stylesheets/main.css" rel="stylesheet">
+		
+		<!-- Google webfonts -->
+		<link rel="stylesheet" type="text/css" href="http://fonts.googleapis.com/css?family=Tangerine">
+		<link rel="stylesheet" type="text/css" href="http://fonts.googleapis.com/css?family=Cousine">
+		
+		<!-- jQuery and plugins -->
+		<script src="//ajax.googleapis.com/ajax/libs/jquery/1.8.2/jquery.min.js"></script>
+		<script src="/js/jquery.zclip.min.js"></script>
+		
+		<!-- Syntax highlighter -->
+		<link href="/stylesheets/prettify-hemisu.css" type="text/css" rel="stylesheet" />
+		<script type="text/javascript" src="/js/prettify.js"></script>
+		
+	</head>
+	<body onload="prettyPrint()" itemscope itemtype="http://schema.org/Person">
+	
+		<div class="wrap">
+	
+			<header>
+				<div class="title" itemprop="name">Tom Moor</div>
+				<div class="navi">
+					<ul>
+						<li><a href="/">Blog</a></li>
+						<li><a href="/blog/archives">Archives</a></li>
+						<li><a href="/about">About</a></li>
+					<ul>
+				</div> <!-- // .navi -->
+			</header>
+		
+				<!-- START OF _layouts/post.html -->
+
+<!-- START OF _includes/article.html -->
+<article>
+	<header>
+		<h1><a href="/2013/03/09/there-are-always-more-users/">There Are Always More Users</a></h1>
+		<time>09 March 2013</time>
+	</header>
+		<div class="content">
+			<p><img src="http://media.tumblr.com/139ca3ea9898bb75609cf4728c0c5d7d/tumblr_inline_mjewl45jUa1qz4rgp.jpg" alt="Crowds"/></p>
+
+
+
+
+<p>Something I hear often when talking to people and also find myself thinking occasionally is that there are only so many users that your startup can acquire… isn&#8217;t there a market limit? won&#8217;t they eventually stop signing up? If I release a feature too soon and some users drop off how will I ever win them back?</p>
+
+
+
+
+<p>But the truth is, unless you have the most incredibly niche product (think time-tracking software for ostrich farmers with a penchant for gymnastics) there really are always so many potential users out there that by the time you get anywhere near saturating the market your product will likely be completely different!</p>
+
+
+
+
+<p>Think of the biggest sites and apps you know like Facebook, Evernote and Twitter, they have millions (perhaps billions!) of users and yet still every single minute someone, somewhere that has never used the service before signs up for the first time.</p>
+
+
+
+
+<p>Don&#8217;t be afraid to ship early, if the first impression isn&#8217;t perfect and users don&#8217;t sign up or quit your app then you can treat it as valuable learning, iterate and try again - <strong>there are always more users</strong>!</p>
+
+
+
+
+<p class="caption">Photo by <a href="http://www.flickr.com/photos/jamescridland">James Cridland</a></p>
+
+
+		</div>
+	<footer>
+		
+
+
+		
+
+
+
+
+        
+        
+          <section>
+            <div id="disqus_thread" aria-live="polite"><noscript>Please enable JavaScript to view the <a href="http://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+</div>
+          </section>
+        
+	
+	
+	</footer>
+	
+</article>
+<!-- END OF _includes/article.html -->
+
+
+<!-- END OF _/layouts/post.html -->
+
+		
+			<footer>
+				Copyright &copy; 2015
+
+	Tom Moor
+
+
+			</footer>
+			
+		</div> <!-- // .wrap -->
+	</body>
+	<script>
+		$(document).ready(function() {
+			// Make images center
+			$('p:has(img)').css('text-align', 'center');
+			
+			// Add the image's title attribute as a caption
+			$('p:has(img)').append(function() {
+                var title = $('img', this).attr('title');
+                if (title) {
+    				return '<div class="caption">' + title + '</div>';
+                }
+                return '';
+			});
+			
+			// Prettify code
+			$('code').addClass('prettyprint');
+			$('pre code').addClass('linenums');
+			
+			// Copy to clipboard with button
+			$('pre:has(code)').prepend(function(){
+				return '<div class="clip-btn">copy to clipboard</div>';
+			});
+			$('.clip-btn').zclip({
+				path:'/js/ZeroClipboard.swf',
+				copy: $(this).next('code').text(),
+				afterCopy: function(){
+					$(this).replaceWith('<div class="clip-btn">copied!');
+					}
+			});
+		});
+	</script>
+    
+    
+
+<script type="text/javascript">
+      var disqus_shortname = 'tommoor';
+      
+        
+        // var disqus_developer = 1;
+        var disqus_identifier = 'http://blog.tommoor.com/2013/03/09/there-are-always-more-users/';
+        var disqus_url = 'http://blog.tommoor.com/2013/03/09/there-are-always-more-users/';
+        var disqus_script = 'embed.js';
+      
+    (function () {
+      var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
+      dsq.src = 'http://' + disqus_shortname + '.disqus.com/' + disqus_script;
+      (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+    }());
+</script>
+
+</html>
+<!-- END OF _layouts/default.html -->

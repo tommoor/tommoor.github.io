@@ -1,0 +1,172 @@
+
+<!doctype html>
+<!-- START OF _layouts/default.html -->
+<html lang="en">
+	<head>
+		<meta charset="utf-8">
+		<meta content="IE=edge,chrome=1" http-equiv="X-UA-Compatible" >
+		<meta content="width=device-width,initial-scale=1" name="viewport">
+		<meta content="Tom Moor is the Co-Founder of Sqwiggle - a communication tool for remote teams, from the UK and currently in San Francisco." name="description">
+		<meta content="Tom Moor" name="author">
+		
+		<title>The Trouble with Timezones &mdash; Tom Moor</title>
+		
+		<!-- Styles -->
+		<link href="/stylesheets/main.css" rel="stylesheet">
+		
+		<!-- Google webfonts -->
+		<link rel="stylesheet" type="text/css" href="http://fonts.googleapis.com/css?family=Tangerine">
+		<link rel="stylesheet" type="text/css" href="http://fonts.googleapis.com/css?family=Cousine">
+		
+		<!-- jQuery and plugins -->
+		<script src="//ajax.googleapis.com/ajax/libs/jquery/1.8.2/jquery.min.js"></script>
+		<script src="/js/jquery.zclip.min.js"></script>
+		
+		<!-- Syntax highlighter -->
+		<link href="/stylesheets/prettify-hemisu.css" type="text/css" rel="stylesheet" />
+		<script type="text/javascript" src="/js/prettify.js"></script>
+		
+	</head>
+	<body onload="prettyPrint()" itemscope itemtype="http://schema.org/Person">
+	
+		<div class="wrap">
+	
+			<header>
+				<div class="title" itemprop="name">Tom Moor</div>
+				<div class="navi">
+					<ul>
+						<li><a href="/">Blog</a></li>
+						<li><a href="/blog/archives">Archives</a></li>
+						<li><a href="/about">About</a></li>
+					<ul>
+				</div> <!-- // .navi -->
+			</header>
+		
+				<!-- START OF _layouts/post.html -->
+
+<!-- START OF _includes/article.html -->
+<article>
+	<header>
+		<h1><a href="/2013/11/18/the-trouble-with-timezones/">The Trouble with Timezones</a></h1>
+		<time>18 November 2013</time>
+	</header>
+		<div class="content">
+			<p><img src="/images/timezones-globe.jpg" alt="The World" /></p>
+
+<p>It is often perceived that the challenges in building a distributed team lie in communication over distance, however with todays incredible technology and tools the problem is really one of communication across timezones. At Sqwiggle we are currently spread across 4 timezones and it is this rather than distance that creates problems like confusion over meeting times, not enough crossover time for discussions, odd working hours and more. These are just a few of the tricks and thoughts that I've had on the topic:</p>
+
+<h2>Keep communications in one timezone</h2>
+
+<p>In emails and spoken conversations try and pick one timezone and stick to it in all of your communications. This small hack makes a huge difference in stopping confusion, and you'll always know which timezone you arranged your meeting in. Of course which timezone you pick is upto you, it could be where you are based, where most of your clients are or where your company is, just be consistent.</p>
+
+<h2>Use a shared calendar</h2>
+
+<p>A shared calendar such as Google Calendar provides a whole bunch of benefits, for a start each participant sees the event in their own timezone and in relation to their own day - a huge confusion buster. A shared calendar also has the advantage of increasing transparency within the company</p>
+
+<h2>Don't spread your team too thin</h2>
+
+<p>When we began advertising our <a href="http://angel.co/sqwiggle/jobs">open positions</a> we received a lot of applications from all over the world thanks to our "you must remote work" policy! This was great but we soon realised that at our size and stage of the company we would have to filter out many applications purely based on location so that we could reduce our timezone-spread.</p>
+
+<h2>Split your day in two</h2>
+
+<p>Right now we are beginning to deal with the <a href="http://www.paulgraham.com/makersschedule.html">maker / manager transition</a> at Sqwiggle. In my experience so far, being based in Europe with over half our team in the US affords a distinctive split in the day where the morning is quiet and great for focus on coding tasks whilst the afternoon becomes planning, discussion and other non-maker duties.</p>
+
+<h2>Something's gotta give</h2>
+
+<p>Even taking these thoughts into account I've found that when working closely with a geographically diverse team the best thing you can do is increase the amount of crossover that you have for syncronous communication. This generally means one or both parties shifting working hours to accommodate more time spent working together. <a href="https://www.sqwiggle.com">Sqwiggle</a> has proven very useful in this respect and I often stay logged in until late into the evening making me available for anyone on the team to ask quick questions that come up during their day.</p>
+
+<p><strong>Do you have any tips for working more effectively between timezones? Let me know in the comments, I'd love to give them a try</strong></p>
+
+<p class="caption">Photo by <a href="http://www.flickr.com/photos/9828543@N05/5334352031">Stephen Ritchie</a></p>
+
+
+		</div>
+	<footer>
+		
+
+
+		
+
+
+
+
+        
+        
+          <section>
+            <div id="disqus_thread" aria-live="polite"><noscript>Please enable JavaScript to view the <a href="http://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+</div>
+          </section>
+        
+	
+	
+	</footer>
+	
+</article>
+<!-- END OF _includes/article.html -->
+
+
+<!-- END OF _/layouts/post.html -->
+
+		
+			<footer>
+				Copyright &copy; 2015
+
+	Tom Moor
+
+
+			</footer>
+			
+		</div> <!-- // .wrap -->
+	</body>
+	<script>
+		$(document).ready(function() {
+			// Make images center
+			$('p:has(img)').css('text-align', 'center');
+			
+			// Add the image's title attribute as a caption
+			$('p:has(img)').append(function() {
+                var title = $('img', this).attr('title');
+                if (title) {
+    				return '<div class="caption">' + title + '</div>';
+                }
+                return '';
+			});
+			
+			// Prettify code
+			$('code').addClass('prettyprint');
+			$('pre code').addClass('linenums');
+			
+			// Copy to clipboard with button
+			$('pre:has(code)').prepend(function(){
+				return '<div class="clip-btn">copy to clipboard</div>';
+			});
+			$('.clip-btn').zclip({
+				path:'/js/ZeroClipboard.swf',
+				copy: $(this).next('code').text(),
+				afterCopy: function(){
+					$(this).replaceWith('<div class="clip-btn">copied!');
+					}
+			});
+		});
+	</script>
+    
+    
+
+<script type="text/javascript">
+      var disqus_shortname = 'tommoor';
+      
+        
+        // var disqus_developer = 1;
+        var disqus_identifier = 'http://blog.tommoor.com/2013/11/18/the-trouble-with-timezones/';
+        var disqus_url = 'http://blog.tommoor.com/2013/11/18/the-trouble-with-timezones/';
+        var disqus_script = 'embed.js';
+      
+    (function () {
+      var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
+      dsq.src = 'http://' + disqus_shortname + '.disqus.com/' + disqus_script;
+      (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+    }());
+</script>
+
+</html>
+<!-- END OF _layouts/default.html -->
