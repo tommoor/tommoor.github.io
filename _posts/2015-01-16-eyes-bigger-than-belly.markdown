@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "A Year In Review"
+title: "Don't Grow Too Fast"
 date: 2015-01-16 09:00
 comments: true
 tags: 
@@ -12,6 +12,8 @@ Do you remember being told as a child that your eyes were bigger than your belly
 
 As a kid I always wanted to eat too much, grow up faster, be taller, I’d look up to those in years above at school and think how much older they seemed and that I couldn’t wait to be their age with all the benefits that it would bring… I think most of us thought something along these lines, right?! 
 
-Of course in hindsight we realise how important those years are - there is no way we could simply skip to final exams without all of the learning and growth that these earlier times provide. 
+Of course now we realise how important those years are - there is no way we could simply skip to final exams without all of the learning and growth that these earlier days provide. I’ve found that in building startups, the very same temptations exist. The desire to be bigger than your boots, to grow too fast and to try and emulate those that are more grown up. 
 
-I’ve found that in startups, the very same temptation exists. The desire to be bigger than your boots, to grow too fast and to try and emulate those that are more grown up. At Sqwiggle we made this classic mistake, jumping into hiring as soon as we’d raised our seed round because that’s what you do. Really we were still in this early period of pre product market fit, we should have still been testing, experimenting and iterating towards great traction and zero churn.
+At Sqwiggle we made this classic mistake too, jumping into hiring as soon as we’d raised our [seed round](/2013/09/06/lessons-learnt-raising-a-million-dollar-seed-round/) because that’s what you do. But really we were still in this early period of pre product market fit - we should have still been testing, experimenting and iterating towards great traction and zero churn. In hindsight an early burst of signups coupled with a successful funding round had confused us into thinking that we already had product market fit and our ambitions meant we were only too eager to grow up to the "next stage".
+
+Don't be in a rush to become someone else's big company.
