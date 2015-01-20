@@ -17,3 +17,6 @@ Of course now we realise how important those years are - there is no way we coul
 At [Sqwiggle](https://www.sqwiggle.com) we made this classic mistake too, jumping into hiring as soon as we’d raised our [seed round](/2013/09/06/lessons-learnt-raising-a-million-dollar-seed-round/) because that’s what you do. But really we were still in this early period of pre product market fit - we should have still been testing, experimenting and iterating towards great traction and zero churn. In hindsight an early burst of signups coupled with a successful funding round had confused us into thinking that we already had product market fit and our ambitions meant we were only too eager to grow up to the "next stage".
 
 Step back, embrace where you are at, don't grow too fast.
+
+
+**Update:** Brad Feld just published a post, "[The Illusion of Product Market Fit](http://www.feld.com/archives/2015/01/illusion-product-market-fit-saas-companies.html)" which sums up the above far better than I have.
