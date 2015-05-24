@@ -20,4 +20,4 @@ Personally I think this is one of the most difficult times in a startups formati
 
 Dan Shipper found the [perfect analogy](pando.com/2013/06/19/why-youre-on-a-startup-roller-coaster/) in that of a stock trader - if you constantly check how your stocks are performing then there is just as much chance of them being down as up, even if they longterm pattern is one of positivity and growth. 
 
-An acute awareness of this is the first step to dealing with it. Talk to customers, track and celebrate the small wins and keep plugging away at building something great.
+An acute awareness of this is the biggest step to dealing with it. Talk to customers, track and celebrate the small wins and keep plugging away at building something great!
