@@ -18,6 +18,6 @@ Almost two weeks later and we’re now experiencing the quiet after the storm. E
 
 Personally I think this is one of the most difficult times in a startups formative stages, and it's easy to lose heart. You have a few users, not enough to get excited, some retention, but not enough to be ecstatic, and requests pulling you in every direction from those that did signup and want you to solve their very specific problems.
 
-Dan Shipper found the [perfect analogy](pando.com/2013/06/19/why-youre-on-a-startup-roller-coaster/) in that of a stock trader - if you constantly check how your stocks are performing then there is just as much chance of them being down as up, even if they longterm pattern is one of positivity and growth. 
+Dan Shipper found the [perfect analogy](pando.com/2013/06/19/why-youre-on-a-startup-roller-coaster/) in that of a stock trader - if you constantly check how your stocks are performing then there is just as much chance of them being down as up, even if the longterm pattern is one of positivity and growth. 
 
 An acute awareness of this is the biggest step to dealing with it. Talk to customers, track and celebrate the small wins and keep plugging away at building something great!
