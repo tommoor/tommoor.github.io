@@ -1,3 +1,15 @@
+---
+layout: post
+title: "Lessons learnt building team communication products"
+date: 2015-09-21 10:00
+comments: true
+tags: 
+- startups
+- journey
+- saas
+- b2b
+---
+
 At [Speak](https://speak.io) we’ve been building team communication products for years, but when we began down this path I don’t think that any of us knew what was ahead. We all came from different backgrounds in gaming, b2c and ecommerce but we’d never tackled anything built for teams.
 
 We’ve come to discover that creating a successful team product has it’s own set of unique challenges...
