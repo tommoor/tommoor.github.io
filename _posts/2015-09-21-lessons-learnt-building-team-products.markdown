@@ -55,4 +55,4 @@ You can almost think of a team as one user with multiple personalities, one minu
 The trend of employees bringing consumer apps into business isn’t going away and the line between personal life and work continues to blur for creative professionals. Everyone would prefer to have a little fun whilst they work and one way to inject this into your day is to use tools with personality, animation and excitement!
 
 
-The bar for a great business tool is continuously being raised and we’re excited to be tackling these challenges! Building something for teams yourself? I’d love to hear any thoughts you have on this subject in the comments...
+**The bar for a great business tool is continuously being raised and we’re excited to be tackling these challenges! Building something for teams yourself? I’d love to hear any thoughts you have on this subject in the comments…**
