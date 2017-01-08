@@ -47,7 +47,7 @@ Next head to [chrome://settings](chrome://settings), scroll to the bottom and cl
 ￼
 
 ## Google Privacy Settings
-The big G provides a [single dashboard for managing activity](https://myaccount.google.com/activitycontrols) they track and save - personally I have everything here turned off (paused) apart from ‘Device Information’ which keeps your apps and settings synced across devices. By default Google will be tracking your location, search history and every webpage you visit if you’re using Chrome - eesh:
+The big G provides a [single dashboard for managing activity](https://myaccount.google.com/activitycontrols) they track and save - personally I have everything here turned off (paused) apart from ‘Device Information’ which keeps your apps and settings synced across devices. By default Google will be tracking your location, search history and every webpage you visit if you’re using Chrome - eesh.
 
 
 ## Facebook Privacy Settings
@@ -85,7 +85,7 @@ It’s easy to forget about the desktop apps you use, they are all constantly ph
 ## Use a VPN
 A VPN obscures your real IP address, and with it your location. It also creates an encrypted tunnel for all of your internet traffic that prevents your ISP from knowing and logging the websites that you visit.
 
-If you have the technical skills and time I highly recommend setting up your own installation of OpenVPN - [here is a good tutorial](https://www.digitalocean.com/community/tutorials/how-to-set-up-an-openvpn-server-on-ubuntu-16-04) for doing so on a DigitalOcean server that will run you $5/month. [TunnelBlick](https://tunnelblick.net/downloads.html) is a great well maintened, open source OpenVPN client for Mac.
+If you have the technical skills and time I highly recommend setting up your own installation of OpenVPN - [here is a good tutorial](https://www.digitalocean.com/community/tutorials/how-to-set-up-an-openvpn-server-on-ubuntu-16-04) for doing so on a DigitalOcean server that will run you $5/month. [TunnelBlick](https://tunnelblick.net/downloads.html) is a great well maintained, open source OpenVPN client for Mac.
 
 
 ## Fin
