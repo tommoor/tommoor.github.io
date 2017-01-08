@@ -27,31 +27,31 @@ Whilst you’re at it don’t forget about your mobile browser. For iOS [‘Focu
 
 
 ## Ensure HTTPS
-[This extension](https://chrome.google.com/webstore/detail/https-everywhere/gcbommkclmclpchllfjekcdonpmejbdp/related) from the EFF makes sure that you always connect to the secure version of web services if available - this prevents your ISP and other middlemen from inspecting and potentially injecting content into webpages you load.
+The [HTTP Everywhere extension](https://chrome.google.com/webstore/detail/https-everywhere/gcbommkclmclpchllfjekcdonpmejbdp/related) from the EFF makes sure that you always connect to the secure version of web services if available - this prevents your ISP and other middlemen from inspecting and potentially injecting content into webpages you load (Yep, [they](http://arstechnica.com/tech-policy/2014/09/why-comcasts-javascript-ad-injections-threaten-security-net-neutrality/) [do](http://arstechnica.com/uncategorized/2007/12/canadian-isp-tests-injecting-content-into-web-pages/) [this](http://www.infoworld.com/article/2925839/net-neutrality/code-injection-new-low-isps.html)).
 
 
 ## Change Your Default Search Engine
-Google is great and the results are top notch - however their privacy policies are really awful. I find for 99% of searches DuckDuckGo does just as good a job and doesn’t track your activity against an extensive personal profile like Google will.
+Google is great and the results are obviously top notch - however their data collection policies are really awful. I find for 99% of searches [DuckDuckGo](https://duckduckgo.com) does just as good a job and doesn’t track your activity against an extensive personal profile like Google will.
 
 DuckDuckGo makes a great default search engine that is visually very similar to Google, you can find [quick install instructions here](https://duckduckgo.com/install).
 
 
 ## Chrome Privacy Settings
-Using Chrome? Next up lets customize the privacy and content settings to be a little more picky about the data we give away. First off you’ll want to block third party cookies, navigate to: [chrome://settings/content](chrome://settings/content)
+Using Chrome? Next up lets customize the privacy and content settings to be a little more picky about the data we give away. First off you’ll want to block third party cookies, navigate to: [Chrome Content Settings](chrome://settings/content)
 
 Check “Block third party cookies and site data”. This helps to prevent trackers that may slip through UBlock from tracking you across websites.
 
-Next head to [chrome://settings](chrome://settings), scroll to the bottom and click the tiny text that says “Show advanced settings…”, scroll again to Privacy (Phew, it’s almost like they don’t want you to find this!).  I would recommend unticking the majority of these settings apart from Send a “Do Not Track” request with your browsing traffic which should be ticked.
+Next head to [Chrome Settings](chrome://settings), scroll to the bottom and click the tiny text that says “Show advanced settings…”, scroll again to Privacy (Phew, it’s almost like they don’t want you to find this!).   I would recommend unticking the majority of these settings apart from Send a “Do Not Track” request with your browsing traffic which should be ticked and probably isn't.
 
 <p style="text-align: center;"><img src="/images/chrome-privacy.png" alt="Chrome Privacy"></p>
 ￼
 
 ## Google Privacy Settings
-The big G provides a [single dashboard for managing activity](https://myaccount.google.com/activitycontrols) they track and save - personally I have everything here turned off (paused) apart from ‘Device Information’ which keeps your apps and settings synced across devices. By default Google will be tracking your location, search history and every webpage you visit if you’re using Chrome - eesh.
+The big G provides a [single dashboard for managing activity](https://myaccount.google.com/activitycontrols) that they track and save. Personally I have everything here disabled (paused) apart from ‘Device Information’ which keeps your apps and settings synced across devices. By default Google will be tracking your location, search history and every webpage you visit if you’re using Chrome - eesh.
 
 
 ## Facebook Privacy Settings
-Most of us have a Facebook account even if it doesn’t get used too much. At this point we’ve blocked Facebook’s trackers on other websites, told them not to track us and ensured we’re always viewing Facebook over HTTPS but there’s definitely more to do!  By default Facebook’s advertising policies are quite… invasive, lets turn them down a bit by visiting the [Facebook Privacy Settings](https://www.facebook.com/settings?tab=ads)
+Most of us have a Facebook account even if it doesn’t get used too much. At this point we’ve blocked Facebook’s trackers on other websites, told them not to track us and ensured we’re always viewing Facebook over HTTPS but there’s definitely more to do!   By default Facebook’s advertising policies are quite… invasive, lets turn them down a bit by visiting the [Facebook Privacy Settings](https://www.facebook.com/settings?tab=ads)
 
 <p style="text-align: center;"><img src="/images/facebook-privacy.png" alt="Chrome Privacy"></p>
 
@@ -67,19 +67,21 @@ At the bottom there is also an “Apps Others Use” section, click edit and unt
 ## Twitter Privacy Settings
 We’re getting somewhere, don’t give up yet! Next up is Twitter - similar to Facebook you’ll want to turn off all the advertisement tailoring and maybe the default location tagging depending on your preference on the [Twitter settings](https://twitter.com/settings/security) (Don’t forget to hit ‘Save Changes’ at the bottom of the page)
 
-You might have accidentally uploaded your entire address book to Twitter (they make this way too easy) - double check if that’s the case here and consider deleting the data on the [Twitter contacts dashboard](https://twitter.com/settings/contacts_dashboard)
+You might have accidentally uploaded your entire address book to Twitter (they make this way too easy) - double check if that’s the case here and consider deleting the data on the [Twitter contacts dashboard](https://twitter.com/settings/contacts_dashboard).
 
-This is also a good opportunity to double check which apps you’ve authorized to read your Twitter information and remove any you no longer want to have access, the full list of [apps with access to Twitter](https://twitter.com/settings/applications) here.
+This is also a good opportunity to double check which apps you’ve authorized to read your Twitter information and remove any you no longer want to have access, here is the full list of [apps with access to Twitter](https://twitter.com/settings/applications).
 
 
 ## Install a Password Manager
-If you’re still using a ‘system’ (hey, we’ve all done it!) or worse yet the same password for everything then nows the time to upgrade to a Password Manager, that way if one website gets compromised you don’t risk your other accounts being hacked too.
+If you’re still using a ‘system’ (hey, we’ve all done it!) or worse yet the same password for everything then now is the time to upgrade to a Password Manager, that way if one website gets compromised you don’t risk your other accounts being hacked too.
 
-[1Password](https://1password.com) is pretty awesome and you can make this change gradually by moving your passwords into the manager as you login to websites instead of all in one go. You’ll never have to try and remember which dumb rules a website expected for a password ever again.
+[1Password](https://1password.com) is pretty awesome and you can make this change gradually by moving your passwords into the manager as you login to services instead of all in one go. You’ll never have to try and remember which dumb rules a website expected for a password ever again.
 
 
 ## Install a Firewall
-It’s easy to forget about the desktop apps you use, they are all constantly phoning home too. [Little Snitch](https://www.obdev.at/products/littlesnitch/index.html) will alert you every time an app tries to access the internet and let you set rules for access rather than letting everything out by default. I’ll be honest, it’s a real pain to use for the first few hours because rules need to be created for all your existing apps but the peace of mind may be worth it.
+It’s easy to forget about the desktop apps you use, they are all constantly phoning home too. [Little Snitch](https://www.obdev.at/products/littlesnitch/index.html) will alert you every time an app tries to access the internet and let you set rules for access rather than letting everything out by default.
+
+I’ll be honest, it’s a real pain to use for the first few hours because rules need to be created for all your existing apps but the peace of mind may be worth it - did you know Spotlight makes requests to lots of different services for everything you type in there?
 
 
 ## Use a VPN
