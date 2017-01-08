@@ -33,8 +33,7 @@ Whilst you’re at it don’t forget about your mobile browser. For iOS [‘Focu
 ## Change Your Default Search Engine
 Google is great and the results are top notch - however their privacy policies are really awful. I find for 99% of searches DuckDuckGo does just as good a job and doesn’t track your activity against an extensive personal profile like Google will.
 
-DuckDuckGo makes a great default search engine that is visually very similar to Google, you can change the default in Chrome, here:
-[chrome://settings/searchEngines](chrome://settings/searchEngines)
+DuckDuckGo makes a great default search engine that is visually very similar to Google, you can find [quick install instructions here](https://duckduckgo.com/install).
 
 
 ## Chrome Privacy Settings
@@ -56,7 +55,7 @@ Most of us have a Facebook account even if it doesn’t get used too much. At th
 
 <p style="text-align: center;"><img src="/images/facebook-privacy.png" alt="Chrome Privacy"></p>
 
-Turn everything on that page to “No”.
+Turn everything on that page to “No”. Next hit up the [timeline option](https://www.facebook.com/settings?tab=timeline&view) and consider turning off photo tagging suggestions at the bottom of this page.
 
 This is also a good opportunity to double check which apps you’ve authorized to read your Facebook information and remove any you no longer want to have access, the full list of [apps with access to Facebook](https://www.facebook.com/settings?tab=applications).
 
