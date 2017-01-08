@@ -43,6 +43,8 @@ Using Chrome? Next up lets customize the privacy and content settings to be a li
 Check “Block third party cookies and site data”. This helps to prevent trackers that may slip through UBlock from tracking you across websites.
 
 Next head to [chrome://settings](chrome://settings), scroll to the bottom and click the tiny text that says “Show advanced settings…”, scroll again to Privacy (Phew, it’s almost like they don’t want you to find this!).  I would recommend unticking the majority of these settings apart from Send a “Do Not Track” request with your browsing traffic which should be ticked.
+
+<p style="text-align: center;"><img src="/images/chrome-privacy.png" alt="Chrome Privacy"></p>
 ￼
 
 ## Google Privacy Settings
@@ -52,10 +54,13 @@ The big G provides a [single dashboard for managing activity](https://myaccount.
 ## Facebook Privacy Settings
 Most of us have a Facebook account even if it doesn’t get used too much. At this point we’ve blocked Facebook’s trackers on other websites, told them not to track us and ensured we’re always viewing Facebook over HTTPS but there’s definitely more to do!  By default Facebook’s advertising policies are quite… invasive, lets turn them down a bit by visiting the [Facebook Privacy Settings](https://www.facebook.com/settings?tab=ads)
 
+<p style="text-align: center;"><img src="/images/facebook-privacy.png" alt="Chrome Privacy"></p>
+
 Turn everything on that page to “No”.
 
 This is also a good opportunity to double check which apps you’ve authorized to read your Facebook information and remove any you no longer want to have access, the full list of [apps with access to Facebook](https://www.facebook.com/settings?tab=applications).
 
+<p style="text-align: center;"><img src="/images/facebook-apps.png" alt="Chrome Privacy"></p>
 
 At the bottom there is also an “Apps Others Use” section, click edit and untick everything in there which gives permission for your friends to share your data. It won’t have any effect on your personal Facebook experience as far as I can tell.
 
