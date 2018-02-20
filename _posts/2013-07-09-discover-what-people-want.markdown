@@ -7,6 +7,7 @@ tags:
 - startups
 - startup edition
 ---
+
 <p><img src="http://media.tumblr.com/0ab84f6875b76a556b82d89483f0c4be/tumblr_inline_mpnngpVOsL1qz4rgp.jpg" alt="What People Want" title="What Everybody Wants" /></p>
 
 <p>This weeks <a href="http://startupedition.com">Startup Edition</a> prompt is &#8220;How do you discover what people really want?&#8221; - at first glance the answer to this question might seem obvious, you just ask, right?! But the way you ask and how you process the feedback can make the difference between a terrible product and a runaway success.</p>

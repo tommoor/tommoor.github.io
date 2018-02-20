@@ -1,13 +1,14 @@
 ---
 layout: post
 title: "A Year In Review"
-date: 2015-01-10 17:00
+date: 2015-01-10 17:00 -0800
 comments: true
-tags: 
+tags:
 - startups
 - year in review
 - life
 ---
+
 ![IWNA Beijing Tour](/images/baidu.jpg)
 
 Writing is always the first thing that gives, whether we’re having a bumper month or a ton of trouble with our architecture and product - it seems as though there is always an excuse not to write about it...
@@ -16,7 +17,7 @@ This was definitely the case last year, where I published a grand total of _zero
 
 
 ## Sqwiggle
-This deserves (and will get) a post or two for itself, needless to say it was a year far from smooth sailing and chock full of events. 
+This deserves (and will get) a post or two for itself, needless to say it was a year far from smooth sailing and chock full of events.
 
 I feel as though we experienced the entire startup lifecycle several times over from the post-raising hiring spree, a traction plateau and a trip through the infamous ‘valley of death’... much more to come on this.
 

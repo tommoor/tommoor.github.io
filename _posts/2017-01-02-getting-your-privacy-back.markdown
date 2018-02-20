@@ -1,13 +1,12 @@
 ---
 layout: post
 title: "Reclaim Your Privacy"
-date: 2017-01-07 21:00
+date: 2017-01-07 21:00 -0800
 comments: true
 tags:
 - privacy
 - security
 ---
-
 
 In 2017 it’s incredibly hard to use the internet without constantly giving away your personal information… it’s absolutely the norm for a single website you visit to send personally identifying information to your ISP, the website itself, their advertisers, multiple tracking and analytics companies, plus all the social networks you’re logged into.
 

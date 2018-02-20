@@ -1,9 +1,9 @@
 ---
 layout: post
 title: "Lessons learnt building team communication products"
-date: 2015-09-21 10:00
+date: 2015-09-21 10:00 -0800
 comments: true
-tags: 
+tags:
 - startups
 - journey
 - saas
@@ -19,19 +19,19 @@ We’ve come to discover that creating a successful team product has it’s own 
 
 Unlike one player consumer apps like games and photography tools, multi platform support is critical to the success of a team product. Whilst it’s easy to forget when living in the tech bubble, not everyone uses your OS of choice and most teams will have a mixture of operating systems in use. If your tool needs to be used by everyone then multi-platform is a must as soon as possible.
 
-If you’re building for web then this means compatibility with all the major browsers, not just Chrome… and desktop apps need to embrace Windows with gusto! 
+If you’re building for web then this means compatibility with all the major browsers, not just Chrome… and desktop apps need to embrace Windows with gusto!
 
 
 ## Realtime is Hard
 
-If you come from a background of building web experiences that rely on a page reload or short session times, moving to building real-time systems with millisecond race conditions and a client that users keep open for days or even weeks introduces a whole new set of fun challenges. 
+If you come from a background of building web experiences that rely on a page reload or short session times, moving to building real-time systems with millisecond race conditions and a client that users keep open for days or even weeks introduces a whole new set of fun challenges.
 
 At [Speak](https://speak.io) we aim to connect audio in under a second. To achieve this, 50+ messages race through websockets and through our evented system which is built to withstand misordering, mistiming and lost messages altogether. Each layer of the system has to be built with fallbacks and proper error handling to ensure that when things go awry the user experience doesn’t end up suffering.
 
 
 ## Activation is harder
 
-Activation is that ‘magic moment’ when you consider that a user has engaged with your product in a meaningful way. This may be sending an email, creating a post, uploading a file or in our case - having a quick audio call. 
+Activation is that ‘magic moment’ when you consider that a user has engaged with your product in a meaningful way. This may be sending an email, creating a post, uploading a file or in our case - having a quick audio call.
 
 This is exponentially more difficult when you require multiple people to use your product synchronously to achieve it, so anything that can be done to give your team product a one-player experience will pay dividends as users will be more likely to keep the app open and actually still be online when their coworkers signup too...
 
