@@ -8,18 +8,17 @@
 		<meta content="width=device-width,initial-scale=1" name="viewport">
 		<meta content="{{ site.description }}" name="description">
 		<meta content="{{ site.title }}" name="author">
-		
+
 		<title>{% if page.title %}{{ page.title }} &mdash; {% endif %}{{ site.title }}</title>
-		
+
 		<link rel="shortcut icon" href="http://www.gravatar.com/avatar/166e0b975c36bbe15caa65209940035c.png">
-		
+
 		<!-- Styles -->
 		<link href="{{ root_url }}/stylesheets/main.css" rel="stylesheet">
-		
+
 		<!-- Google webfonts -->
-		<link rel="stylesheet" type="text/css" href="http://fonts.googleapis.com/css?family=Tangerine">
-		<link rel="stylesheet" type="text/css" href="http://fonts.googleapis.com/css?family=Cousine">
-		
+		<link href="https://fonts.googleapis.com/css?family=Cabin" rel="stylesheet">
+
 		<!-- jQuery and plugins -->
 		<script src="//ajax.googleapis.com/ajax/libs/jquery/1.8.2/jquery.min.js"></script>
 		<script src="{{ root_url }}/js/jquery.zclip.min.js"></script>
@@ -28,44 +27,44 @@
 		  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
 		  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
 		  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
-		  
+
 		  ga('create', 'UA-1703053-5', 'auto');
 		  ga('send', 'pageview');
 		</script>
-		
+
 		<!-- Syntax highlighter -->
 		<link href="{{ root_url }}/stylesheets/prettify-hemisu.css" type="text/css" rel="stylesheet" />
 		<script type="text/javascript" src="{{ root_url }}/js/prettify.js"></script>
-		
+
 	</head>
 	<body onload="prettyPrint()" itemscope itemtype="http://schema.org/Person">
-	
+
 		<div class="wrap">
-	
+
 			<header>
 				<div class="title" itemprop="name">{{ site.title }}</div>
 				<div class="navi">
 					<ul>
 						<li><a href="{{ root_url }}/">Blog</a></li>
-						<li><a href="{{ root_url }}/blog/archives">Archives</a></li>
+						<li><a href="{{ root_url }}/blog/archives">Older Posts</a></li>
 						<li><a href="{{ root_url }}/about">About</a></li>
 					<ul>
 				</div> <!-- // .navi -->
 			</header>
-		
+
 				{{ content | expand_urls: root_url }}
-		
+
 			<footer>
 				{% include footer.html %}
 			</footer>
-			
+
 		</div> <!-- // .wrap -->
 	</body>
 	<script>
 		$(document).ready(function() {
 			// Make images center
 			$('p:has(img)').css('text-align', 'center');
-			
+
 			// Add the image's title attribute as a caption
 			$('p:has(img)').append(function() {
                 var title = $('img', this).attr('title');
@@ -74,11 +73,11 @@
                 }
                 return '';
 			});
-			
+
 			// Prettify code
 			$('code').addClass('prettyprint');
 			$('pre code').addClass('linenums');
-			
+
 			// Copy to clipboard with button
 			$('pre:has(code)').prepend(function(){
 				return '<div class="clip-btn">copy to clipboard</div>';
@@ -92,7 +91,7 @@
 			});
 		});
 	</script>
-    
+
     {% include disqus.html %}
 </html>
 <!-- END OF _layouts/default.html -->
