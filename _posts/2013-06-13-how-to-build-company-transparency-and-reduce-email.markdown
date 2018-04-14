@@ -1,6 +1,6 @@
 ---
 layout: post
-title: How to Build Company Transparency and Reduce Email Using WordPress P2
+title: Build Company Transparency and Reduce Email Using WordPress P2
 comments: true
 tags:
 - startups
