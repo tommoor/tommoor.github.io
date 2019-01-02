@@ -70,6 +70,8 @@ It’s a good idea to make sure that outside contributors sign agreements such a
 #### Competitors get insight into feature development and roadmap
 I believe that for most startup companies today this is a non-issue, founders tend to be overly protective of their ideas and roadmap when in reality they’d be better off getting this information in front of potential users as soon as possible.
 
+But of course, some ideas have a wider moat than others and this insight into your companies plans might be something you need to avoid.
+
 #### No security through obscurity
 Open source software is generally considered more secure in the long term – more eyes on an application’s code can help identify and fix security holes. However, opening up your code to scrutiny also provides would-be attackers with direct insight into potential loopholes and security problems. 
 
