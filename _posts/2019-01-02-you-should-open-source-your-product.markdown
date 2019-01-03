@@ -36,7 +36,7 @@ Open source could be thought of as a subset of content marketing – every commi
 
 Building in public is a uniquely satisfying experience. Personally, I often find myself performing to a higher standard when I know that all the work I produce is publicly visible. Defaulting to more judicious comments, ensuring full test coverage, and putting extra effort into being a clear communicator.
 
-Even just opening sourcing components and individual libraries has often led to a better defined interface too. Once a high-level concept is abstracted and decoupled from the specifics of the codebase it often becomes both easier to reason about and 
+If you can't go all-in, consider open sourcing components and individual libraries. Once a high-level concept is abstracted and decoupled from the specifics of a codebase it often becomes both easier to reason about and will inevitably lead to better defined API's and public interfaces.
 
 
 ## Community & contributors
@@ -86,3 +86,4 @@ Similarly, a vibrant open source community doesn’t come for free. Issues need 
 As well, the more popular your open source project becomes the more work there is to do shepherding and maintaining the community – popularity may be a curse that only larger teams can manage…
 
 
+**If you've had great success or failure making your companies code public I'd love to hear about it in the comments.**
